@@ -1,8 +1,8 @@
 # 🏡 Airbnb Clone Project
 
 This is a **full-stack clone** of the Airbnb platform.  
-It allows users to browse properties, get full details, and complete bookings.  
-This repo houses the frontend, backend, database design, and deployment plans.
+It allows users to browse properties, view detailed property information, and complete bookings through a simple checkout flow.  
+The project covers frontend development, backend APIs, database design, and deployment.
 
 ---
 
@@ -10,9 +10,9 @@ This repo houses the frontend, backend, database design, and deployment plans.
 
 - **Frontend:** React, HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express  
-- **Database:** (e.g. MongoDB / PostgreSQL)  
-- **UI/UX Design & Mockups:** Figma  
-- **Version Control & Deployment:** Git, GitHub  
+- **Database:** MongoDB / PostgreSQL (TBD)  
+- **UI/UX Design:** Figma  
+- **Version Control:** Git & GitHub  
 
 ---
 
@@ -20,87 +20,79 @@ This repo houses the frontend, backend, database design, and deployment plans.
 
 ### 🎯 Design Goals
 
-- Clean, intuitive interface (responsive)  
-- Fast, easy navigation & search  
-- Simple, frictionless booking flow  
-- Consistent branding via design tokens  
+- Create a clean, intuitive, and responsive interface.  
+- Ensure fast navigation and search.  
+- Maintain consistent branding through typography and colors.  
+- Provide a smooth, frictionless booking flow.
 
 ### 📋 Key Pages
 
 | Page                     | Description                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| **Property Listing View** | Displays multiple properties with filters, search, pagination              |
-| **Listing Detailed View** | Shows images, descriptions, amenities, reviews, booking options            |
-| **Simple Checkout View**  | Minimal, clear form to confirm booking and finalize reservation            |
+| **Property Listing View** | Displays multiple properties with filters, search, and pagination          |
+| **Listing Detailed View** | Shows property images, amenities, reviews, and booking options             |
+| **Simple Checkout View**  | Allows users to confirm booking details and finalize reservations          |
 
-A user-friendly booking system increases trust, reduces drop-offs, and encourages users to complete the checkout.
+A user-friendly design increases trust, reduces drop-offs, and improves conversion rates.
 
 ---
 
 ## 🎨 More UI/UX Design Planning
 
- (Link or embed Figma design here)
-
-### **Color Styles**
-
+**Color Styles:**
 - Primary: `#FF5A5F`  
-- Secondary / Accent: `#00A699`, `#767676`  
-- Background / Neutrals: `#FFFFFF`, `#F5F5F5`
+- Secondary: `#767676`  
+- Accent: `#00A699`  
+- Background: `#FFFFFF`
 
-### **Typography**
-
+**Typography:**
 - **Font Family:** Inter / Poppins  
-- **Weights:** 400 (Regular), 500 (Medium), 700 (Bold)  
-- **Sizes:**  
-  - Headings: 24–32px  
-  - Subheadings: 18–20px  
-  - Body text: 14–16px  
+- **Font Weights:** 400 (Regular), 500 (Medium), 700 (Bold)  
+- **Font Sizes:** Headings (24–32px), Subheadings (18–20px), Body (14–16px)
 
-Defining these design tokens ensures consistency across components and avoids ambiguity when building UI from mockups.
+Identifying these design properties early ensures consistent UI across all components.
 
 ---
 
-## 👥 Project Roles & Responsibilities
+## 👥 Project Roles and Responsibilities
+
+Defining clear roles helps keep the team organized, improves accountability, and ensures that all critical areas of development are covered.
 
 | Role                     | Responsibilities |
 |---------------------------|------------------|
-| **Project Manager**       | Plan timeline, coordinate tasks, manage risks and communication |
-| **Frontend Developer(s)** | Build UI components, integrate APIs, ensure responsive layout |
-| **Backend Developer(s)**  | Build server APIs, business logic, authentication, data models     |
-| **Designers**             | Create wireframes, mockups, visual assets, ensure usability        |
-| **QA / Testers**           | Write test plans/suites, manual & automated testing, bug verification |
-| **DevOps / Infrastructure**| CI/CD pipelines, deployment, infrastructure, environment setup      |
-| **Product Owner**          | Define features, prioritize backlog, gather stakeholder input       |
-| **Scrum Master / Agile Lead**| Facilitate meetings, remove blockers, help team stay on course     |
+| **Project Manager**       | Oversees the timeline, sets milestones, manages communication, and coordinates the team. |
+| **Frontend Developers**   | Build UI components, integrate APIs, ensure responsive design, and follow best coding practices. |
+| **Backend Developers**    | Develop RESTful APIs, implement business logic, manage data storage, authentication, and server performance. |
+| **Designers**             | Create wireframes, mockups, define styles, ensure usability, and maintain design consistency. |
+| **QA/Testers**            | Write and run test cases, perform manual and automated testing, identify bugs, and ensure quality standards. |
+| **DevOps Engineers**      | Set up CI/CD pipelines, manage deployment environments, and handle infrastructure and scaling. |
+| **Product Owner**         | Define project vision, set priorities, manage the backlog, and ensure business goals are met. |
+| **Scrum Master**          | Facilitate agile ceremonies, remove blockers, and help the team follow agile processes efficiently. |
 
 ---
 
 ## 🧩 UI Component Patterns
 
-Here are some of the reusable components planned:
+We plan to build reusable and consistent components to speed up development and keep the UI structured:
 
-- **Navbar / Header** — navigation across pages  
-- **Property Card** — for listing displays (image, title, price)  
-- **Footer** — site-wide footer with links  
-- **Filters / Search Bar** — for narrowing down listings  
-- **Image Slider / Gallery** — in listing detail page  
-- **Booking Form / Input Components / Modals**
-
-These patterns help keep the UI consistent, easier to maintain, and speed up development by reusing building blocks.
+- **Navbar / Header** – Navigation across all pages  
+- **Property Card** – Reusable property listing component  
+- **Footer** – Global footer with links and info  
+- **Filters & Search** – Dynamic filtering and search functionality  
+- **Image Slider** – For property image galleries  
+- **Booking Form & Modals** – For checkout flow
 
 ---
 
-## 📝 Manual Review & Updates
+## 📝 Manual Review
 
-This README will be reviewed periodically and updated as the project evolves — design changes, new pages, new components, etc.
+This README will be updated regularly and reviewed to ensure it aligns with the current stage of the project.
 
 ---
 
 ## 📎 Repository Info
 
-- **GitHub:** https://github.com/Waqo-Dida-Godana/airbnb-clone-project  
+- **GitHub:** [https://github.com/Waqo-Dida-Godana/airbnb-clone-project](https://github.com/Waqo-Dida-Godana/airbnb-clone-project)  
 - **File:** `README.md`  
-- **Branches:** main (default)  
-
----
+- **Branch:** `main` (default)
 
